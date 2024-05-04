@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    
+   
+}
+.Logo{
+    float: left;
+}
+
+.Navigation{
+    float: right;
+    padding-top: 100px;
+}
+
+.Navigation a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 0px 10px 0px 10px;
+
+}
+
+
+.Navigation a:hover{
+    transition: 1s ease;
+    border-bottom: 4px solid black;
+    
+
+}
+
+main{
+    width: 100%;
+}
+
+h1{
+    display: block;
+    text-align: center;
+  
+}
+
+.Text_left{
+    width: 50%;
+    float: left;
+
+
+}
+
+.Text_right{
+    width: 50%;
+    float: right;
+
+}
+.Long-img{
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    
+}
+.Product{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Product img{
+    width: 100%;
+}
+.Product h1{
+    text-align: left;
+}
+.Products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.Product_left{
+    width: 49%;
+    float: left;
+   
+}
+.Product_right{
+    width: 49%;
+    
+    
+}
+.Product_left img{
+    width: 100%;
+    height: auto;
+    
+}
+.Product_right img{
+    width: 100%;
+    height: auto;
+}
+.Product_left, .Product_right h1{
+    text-align: left;
+}
+.Product a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.Product a:hover{
+    transition: 1s ease;
+    text-decoration: underline;
+    font-size: 25px;
+
+}
+
+.Product_left a, .Product_right a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.Product_left a:hover, .Product_right a:hover{
+    transition: 1s ease;
+    text-decoration: underline;
+    font-size: 25px;
+
+}
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+}
+.Socials{
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+}
+
+.Social{
+    display: flex;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.Picture{
+    padding-right: 5px;
+}
+.footer_Logo{
+    float: right;
+    padding-left: 60%;
+    padding-top: 15px;
+}
